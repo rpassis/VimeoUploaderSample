@@ -1,0 +1,84 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - GoogleAPIClientForREST/Core (1.2.1):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/YouTube (1.2.1):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.1)
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.1)"
+  - GTMSessionFetcher (1.2.2):
+    - GTMSessionFetcher/Full (= 1.2.2)
+  - GTMSessionFetcher/Core (1.2.2)
+  - GTMSessionFetcher/Full (1.2.2):
+    - GTMSessionFetcher/Core (= 1.2.2)
+  - ObjectiveDropboxOfficial (3.9.4)
+  - VimeoNetworking (4.0.0):
+    - AFNetworking (= 3.1.0)
+  - VimeoUpload (3.0.0):
+    - VimeoNetworking
+
+DEPENDENCIES:
+  - GoogleAPIClientForREST/YouTube (~> 1.2.1)
+  - GoogleSignIn (~> 4.0)
+  - ObjectiveDropboxOfficial
+  - VimeoNetworking (~> 4.0.0)
+  - VimeoUpload (from `https://github.com/Vimeo/VimeoUpload`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - GoogleAPIClientForREST
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - ObjectiveDropboxOfficial
+    - VimeoNetworking
+
+EXTERNAL SOURCES:
+  VimeoUpload:
+    :branch: master
+    :git: https://github.com/Vimeo/VimeoUpload
+
+CHECKOUT OPTIONS:
+  VimeoUpload:
+    :commit: 362ad584cbeec76fad57c246bf6b5cc3bebb810b
+    :git: https://github.com/Vimeo/VimeoUpload
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GoogleAPIClientForREST: a8b95a252014ce2e618df6b75dc72eca2c00b4af
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  ObjectiveDropboxOfficial: a5afefc83f6467c42c45f2253f583f2ad1ffc701
+  VimeoNetworking: 62238fe49b7f4982a1bb3e930adc0468ea88cc1c
+  VimeoUpload: 36dd15740e25dea5d9b637c23684ace45663da3c
+
+PODFILE CHECKSUM: 2258441f0237c8e2837207f25c28b842657958a6
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BDDDC2F22AC62CE007C055B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDDC2E22AC62CE007C055B /* AppDelegate.swift */; };
+		5BDDDC3122AC62CE007C055B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDDC3022AC62CE007C055B /* ViewController.swift */; };
+		5BDDDC3422AC62CE007C055B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDDC3222AC62CE007C055B /* Main.storyboard */; };
+		5BDDDC3622AC62CF007C055B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDDC3522AC62CF007C055B /* Assets.xcassets */; };
+		5BDDDC3922AC62CF007C055B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDDC3722AC62CF007C055B /* LaunchScreen.storyboard */; };
+		8AFF4435A8B99A4D1F1F9BD9 /* Pods_MP_VimeoUploaderSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E356DE5B8EA7884D241B7DE0 /* Pods_MP_VimeoUploaderSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BDDDC2B22AC62CE007C055B /* VimeoUploaderSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimeoUploaderSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDDDC2E22AC62CE007C055B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BDDDC3022AC62CE007C055B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BDDDC3322AC62CE007C055B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BDDDC3522AC62CF007C055B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BDDDC3822AC62CF007C055B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BDDDC3A22AC62CF007C055B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993F4D91BE0567025FA546C0 /* Pods-MP-VimeoUploaderSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MP-VimeoUploaderSample.debug.xcconfig"; path = "Target Support Files/Pods-MP-VimeoUploaderSample/Pods-MP-VimeoUploaderSample.debug.xcconfig"; sourceTree = "<group>"; };
+		BBB7846904C951EBEA3FC469 /* Pods-MP-VimeoUploaderSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MP-VimeoUploaderSample.release.xcconfig"; path = "Target Support Files/Pods-MP-VimeoUploaderSample/Pods-MP-VimeoUploaderSample.release.xcconfig"; sourceTree = "<group>"; };
+		E356DE5B8EA7884D241B7DE0 /* Pods_MP_VimeoUploaderSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MP_VimeoUploaderSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BDDDC2822AC62CE007C055B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFF4435A8B99A4D1F1F9BD9 /* Pods_MP_VimeoUploaderSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1412CD9C39C484B4962359DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				993F4D91BE0567025FA546C0 /* Pods-MP-VimeoUploaderSample.debug.xcconfig */,
+				BBB7846904C951EBEA3FC469 /* Pods-MP-VimeoUploaderSample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BDDDC2222AC62CE007C055B = {
+			isa = PBXGroup;
+			children = (
+				5BDDDC2D22AC62CE007C055B /* VimeoUploaderSample */,
+				5BDDDC2C22AC62CE007C055B /* Products */,
+				1412CD9C39C484B4962359DC /* Pods */,
+				6D8BF88655A2B03672894FCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BDDDC2C22AC62CE007C055B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BDDDC2B22AC62CE007C055B /* VimeoUploaderSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BDDDC2D22AC62CE007C055B /* VimeoUploaderSample */ = {
+			isa = PBXGroup;
+			children = (
+				5BDDDC2E22AC62CE007C055B /* AppDelegate.swift */,
+				5BDDDC3022AC62CE007C055B /* ViewController.swift */,
+				5BDDDC3222AC62CE007C055B /* Main.storyboard */,
+				5BDDDC3522AC62CF007C055B /* Assets.xcassets */,
+				5BDDDC3722AC62CF007C055B /* LaunchScreen.storyboard */,
+				5BDDDC3A22AC62CF007C055B /* Info.plist */,
+			);
+			path = VimeoUploaderSample;
+			sourceTree = "<group>";
+		};
+		6D8BF88655A2B03672894FCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E356DE5B8EA7884D241B7DE0 /* Pods_MP_VimeoUploaderSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BDDDC2A22AC62CE007C055B /* VimeoUploaderSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BDDDC3D22AC62CF007C055B /* Build configuration list for PBXNativeTarget "VimeoUploaderSample" */;
+			buildPhases = (
+				B203AC752C52F73FA5ACC26D /* [CP] Check Pods Manifest.lock */,
+				5BDDDC2722AC62CE007C055B /* Sources */,
+				5BDDDC2822AC62CE007C055B /* Frameworks */,
+				5BDDDC2922AC62CE007C055B /* Resources */,
+				86BE7BF644B7B6712538A3BA /* [CP] Embed Pods Frameworks */,
+				2D19485F6300AFAE37A5B29E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimeoUploaderSample;
+			productName = VimeoUploaderSample;
+			productReference = 5BDDDC2B22AC62CE007C055B /* VimeoUploaderSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BDDDC2322AC62CE007C055B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Vimeo;
+				TargetAttributes = {
+					5BDDDC2A22AC62CE007C055B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5BDDDC2622AC62CE007C055B /* Build configuration list for PBXProject "VimeoUploaderSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BDDDC2222AC62CE007C055B;
+			productRefGroup = 5BDDDC2C22AC62CE007C055B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BDDDC2A22AC62CE007C055B /* VimeoUploaderSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BDDDC2922AC62CE007C055B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDDDC3922AC62CF007C055B /* LaunchScreen.storyboard in Resources */,
+				5BDDDC3622AC62CF007C055B /* Assets.xcassets in Resources */,
+				5BDDDC3422AC62CE007C055B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D19485F6300AFAE37A5B29E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MP-VimeoUploaderSample/Pods-MP-VimeoUploaderSample-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MP-VimeoUploaderSample/Pods-MP-VimeoUploaderSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86BE7BF644B7B6712538A3BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MP-VimeoUploaderSample/Pods-MP-VimeoUploaderSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectiveDropboxOfficial/ObjectiveDropboxOfficial.framework",
+				"${BUILT_PRODUCTS_DIR}/VimeoNetworking/VimeoNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/VimeoUpload/VimeoUpload.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectiveDropboxOfficial.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VimeoNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VimeoUpload.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MP-VimeoUploaderSample/Pods-MP-VimeoUploaderSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B203AC752C52F73FA5ACC26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MP-VimeoUploaderSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BDDDC2722AC62CE007C055B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDDDC3122AC62CE007C055B /* ViewController.swift in Sources */,
+				5BDDDC2F22AC62CE007C055B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BDDDC3222AC62CE007C055B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BDDDC3322AC62CE007C055B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BDDDC3722AC62CF007C055B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BDDDC3822AC62CF007C055B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BDDDC3B22AC62CF007C055B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BDDDC3C22AC62CF007C055B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BDDDC3E22AC62CF007C055B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993F4D91BE0567025FA546C0 /* Pods-MP-VimeoUploaderSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35R365FS4Q;
+				INFOPLIST_FILE = VimeoUploaderSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vimeo.VimeoUploaderSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BDDDC3F22AC62CF007C055B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB7846904C951EBEA3FC469 /* Pods-MP-VimeoUploaderSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35R365FS4Q;
+				INFOPLIST_FILE = VimeoUploaderSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vimeo.VimeoUploaderSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BDDDC2622AC62CE007C055B /* Build configuration list for PBXProject "VimeoUploaderSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDDDC3B22AC62CF007C055B /* Debug */,
+				5BDDDC3C22AC62CF007C055B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BDDDC3D22AC62CF007C055B /* Build configuration list for PBXNativeTarget "VimeoUploaderSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDDDC3E22AC62CF007C055B /* Debug */,
+				5BDDDC3F22AC62CF007C055B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BDDDC2322AC62CE007C055B /* Project object */;
+}
